@@ -119,7 +119,7 @@ button {
     background: #000;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 400px) and (max-width: 960px) {
     body {
         padding: 0 10px;
         position: relative;
@@ -186,5 +186,51 @@ button {
 
     .content a {
         font-size: .8rem;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    body {
+        padding: 0 10px;
+        position: relative;
+    }
+
+    header {
+        font-size: 1.1rem;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    header img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .filter-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    #products {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0 15px;
+    }
+
+    .product-item {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .product-item p {
+        font-size: .9rem;
+        font-weight: 500;
     }
 }
