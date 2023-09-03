@@ -12,14 +12,23 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: linear-gradient(-45deg, #000, #00000080);
     padding: 20px;
     font-size: 2rem;
     background: #fff;
     margin: 10px 0 50px;
     border-radius: 15px;
-    text-align: center;
+    /* text-align: center; */
     box-shadow: 0 8px 24px #00000033;
+}
+
+header img {
+    display: block;
+    width: 100px;
+    height: 100px;
 }
 
 input {
