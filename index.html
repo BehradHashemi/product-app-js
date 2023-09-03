@@ -27,13 +27,14 @@
     <p>FronckTeam | Products Page</p><img src="./img/icon.png" alt="logo">
   </header>
   <main>
-    <div id="search"></div>
-    <input type="text" placeholder="Search Name" id="search-input" />
-    <div>
-      <button class="filter selected" data-filter="all">All</button>
-      <button class="filter" data-filter="tech">Tech</button>
-      <button class="filter" data-filter="clothes">Clothes</button>
-      <button class="filter" data-filter="health">Health</button>
+    <div id="search">
+      <input type="search" placeholder="Search Name" id="search-input" inputmode="search"/>
+      <div class="filter-box">
+        <button class="filter selected" data-filter="all">All</button>
+        <button class="filter" data-filter="tech">Tech</button>
+        <button class="filter" data-filter="clothes">Clothes</button>
+        <button class="filter" data-filter="health">Health</button>
+      </div>
     </div>
     <!-- <div>
       <input type="number" placeholder="Search price" />
@@ -45,7 +46,7 @@
         <p>Apple Iphone 14 Pro</p>
         <div class="content">
           <span>$ 1499</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="tech">
@@ -53,7 +54,7 @@
         <p>Apple Watch</p>
         <div class="content">
           <span>$ 399</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="clothes">
@@ -61,7 +62,7 @@
         <p>College Bag</p>
         <div class="content">
           <span>$ 139</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="clothes">
@@ -69,7 +70,7 @@
         <p>Boy's Jacket</p>
         <div class="content">
           <span>$ 169</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="health">
@@ -77,7 +78,7 @@
         <p>Keratin Hair Care</p>
         <div class="content">
           <span>$ 1499</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="tech">
@@ -85,7 +86,7 @@
         <p>Apple Airpods Pro</p>
         <div class="content">
           <span>$ 299</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="health">
@@ -93,7 +94,7 @@
         <p>Vitamin E</p>
         <div class="content">
           <span>$ 39</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="health">
@@ -101,7 +102,7 @@
         <p>Face Cream</p>
         <div class="content">
           <span>$ 49</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
       <div class="product-item" data-category="clothes">
@@ -109,7 +110,7 @@
         <p>Sport Shoes</p>
         <div class="content">
           <span>$ 199</span>
-          <a>Add To Shop</a>
+          <a class="add-cart" href="#">Add To Shop</a>
         </div>
       </div>
     </div>
