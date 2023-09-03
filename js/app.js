@@ -2,6 +2,15 @@ const searchInput = document.getElementById('search-input');
 const products = document.querySelectorAll('.product-item');
 const buttons = document.querySelectorAll('.filter')
 
+// const addBtn = document.querySelectorAll('.add-cart')
+
+// addBtn.forEach(btn => {
+//     btn.addEventListener('click', (event) => {
+//         event.preventDefault()
+        
+//     })
+// })
+
 const changeClass = (filter) => {
     buttons.forEach(btn => {
         if (btn.dataset.filter === filter) {
