@@ -114,10 +114,10 @@ button {
     transition: all .3s ease-in;
 }
 
-.content a:hover {
+/* .content a:hover {
     color: #f6f6f7;
     background: #000;
-}
+} */
 
 footer {
     width: 100%;
