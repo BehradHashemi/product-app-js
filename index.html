@@ -28,7 +28,7 @@
   </header>
   <main>
     <div id="search">
-      <input type="search" placeholder="Search Name" id="search-input" inputmode="search"/>
+      <input type="search" placeholder="Search Name" id="search-input" inputmode="search" />
       <div class="filter-box">
         <button class="filter selected" data-filter="all">All</button>
         <button class="filter" data-filter="tech">Tech</button>
@@ -115,6 +115,31 @@
       </div>
     </div>
   </main>
+  <footer>
+    <div class="Service">
+      <p>Company</p>
+      <ul>
+        <li><a href="https://t.me/fronckteam/">Fronck Products</a></li>
+        <li><a href="https://github.com/BehradHashemi" target="_blank">GitHub 1</a></li>
+        <li><a href="https://github.com/Mohammadsdq" target="_blank">GitHub 2</a></li>
+      </ul>
+    </div>
+    <div class="Support">
+      <p>Support</p>
+      <ul>
+        <li><a href="">RequestFrom</a></li>
+        <li><a href="">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div style="display: flex;" class="copyright">
+      ©<p id="fullyear"></p>FronckTeam. All rights reserved
+    </div>
+  </footer>
+  <script>
+    const paragraph = document.getElementById('fullyear')
+    paragraph.innerHTML = new Date().getFullYear()
+  </script>
   <script src="./js/app.js"></script>
 </body>
 

@@ -7,7 +7,7 @@
 
 body {
     background: #f6f6f7;
-    max-width: 1200px;
+    padding: 0 5px;
     margin: auto;
 }
 
@@ -119,7 +119,52 @@ button {
     background: #000;
 }
 
+footer {
+    width: 100%;
+    height: 150PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px #00000033;
+}
+
+footer div p {
+    font-weight: 700;
+}
+
+footer ul li,
+footer ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000bd;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.copyright {
+    width: 100%;
+}
+
 @media (min-width: 400px) and (max-width: 960px) {
+    @media (min-width: 401px) {
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .Service,
+        .Support {
+            margin-bottom: 10px;
+        }
+
+        .copyright {
+            width: 100%;
+            font-size: .9rem;
+        }
+    }
+
     body {
         padding: 0 10px;
         position: relative;
@@ -222,7 +267,7 @@ button {
         grid-template-columns: repeat(1, 1fr);
         gap: 0 15px;
     }
-    
+
     .product-item img {
         width: 100%;
         margin-bottom: 10px;
@@ -237,5 +282,22 @@ button {
     .product-item p {
         font-size: .9rem;
         font-weight: 500;
+    }
+
+    footer {
+        text-align: left;
+        justify-content: left;
+        flex-direction: column;
+        align-items: start;
+        height: fit-content;
+    }
+
+    .Service,
+    .Support {
+        margin-bottom: 10px;
+    }
+    
+    .copyright {
+        font-size: .8rem;
     }
 }
