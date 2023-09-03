@@ -13,7 +13,7 @@ Input:
 ## Social
 
 - [Instagram](https://instagram.com/bhrad2006)
-- [Telegram](https://t.me/bhradhashemi)
+- [Telegram](https://t.me/BehradHashemii)
 - [GitHub](https://pages.github.com/BehradHashemi)
 
 ## Changelog
