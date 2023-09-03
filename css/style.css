@@ -192,7 +192,6 @@ button {
 @media (min-width: 300px) and (max-width: 400px) {
     body {
         padding: 0 10px;
-        position: relative;
     }
 
     header {
@@ -215,12 +214,18 @@ button {
 
     input {
         width: 100%;
+        margin: 0 auto;
     }
 
     #products {
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         gap: 0 15px;
+    }
+    
+    .product-item img {
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     .product-item {
