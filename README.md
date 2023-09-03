@@ -29,7 +29,6 @@ Input:
 
 ## Notes:
 
-`No Responsive`
 ```
 CopyRight
 ```
