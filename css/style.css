@@ -83,3 +83,19 @@ button {
     padding: 5px 10px;
     border-radius: 10px;
 }
+
+.selected {
+    background: #f6f6f7;
+    border: 2px #000 solid;
+    color: #000;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content a {
+    font-weight: bold;
+    cursor: pointer;
+}
